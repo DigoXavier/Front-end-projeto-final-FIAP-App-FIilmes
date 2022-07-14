@@ -55,7 +55,7 @@ function grava(){
         "titulo":document.getElementById("txttitulo").value,
         "genero":document.getElementById("txtgenero").value,
         "sinopse":document.getElementById("txtsinopse").value,
-        "lancamento": lancamento,
+        "lancamento":document.getElementById("txtLancamento").value,
         "provedora": {
             "id" : document.getElementById("txtprovedora").value
         }
